@@ -147,3 +147,15 @@ img {
 .below {
     color: #E5E7EB;
 }
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+footer p {
+    color: #F9FAF8;
+}
