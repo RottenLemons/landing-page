@@ -45,6 +45,18 @@ header {
     flex-direction: column;
 }
 
+main {
+    padding: 150px 0;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  padding: 0;
+  margin: 0;
+}
+
 .link1, .link2, .link3, .desc {
     font-size: 18px;
     color: #E5E7EB;
@@ -62,9 +74,27 @@ header {
 h1 {
     font-size: 48px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 img {
     height: 300px;
     width: auto;
+}
+
+.randinf {
+    color: #1F2937;
+    text-align: center;
+}
+
+.square {
+    max-width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 7px;
+}
+
+.card p {
+    width: 200px;
+    text-align: center;
 }
